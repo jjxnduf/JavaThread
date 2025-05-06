@@ -22,6 +22,7 @@ class Corridore extends Thread{
 
 
         System.out.println("Corridore " + getName() +  " ha finito");
+        
      }
 
 }

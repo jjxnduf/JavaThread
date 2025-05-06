@@ -11,8 +11,16 @@ public class App {
             lista[i] = new Corridore(nomi[i]);
             lista[i].start();
         }
+        
+        for (int i = 0; i < 4 ; i ++){
+            
+            lista[i].join();
+        }
 
-      
+        System.out.println("Gara finita");
+
+
+        
     }
 
 }
